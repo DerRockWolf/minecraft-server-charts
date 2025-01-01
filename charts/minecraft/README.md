@@ -43,7 +43,7 @@ Specify each parameter using the `--set key=value[,key=value]` argument to `helm
 
 ```shell
 helm install --name minecraft \
-  --set minecraftServer.eula=true,minecraftServer.Difficulty=hard \
+  --set minecraftServer.eula=true,minecraftServer.difficulty=hard \
   itzg/minecraft
 ```
 
